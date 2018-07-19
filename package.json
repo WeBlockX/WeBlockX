@@ -1,0 +1,26 @@
+{
+  "name": "weblockx",
+  "version": "1.0.0",
+  "description": "WeBlockX homepage project",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "sass": "node-sass -w sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeBlockX/WeBlockX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeBlockX/WeBlockX/issues"
+  },
+  "homepage": "https://github.com/WeBlockX/WeBlockX#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2",
+    "webpack": "^4.16.1"
+  }
+}
