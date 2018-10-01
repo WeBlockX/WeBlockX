@@ -736,3 +736,35 @@ add css
 
 
 
+
+.main{
+    display: none;
+}
+
+.image_box{
+    margin: auto;
+    text-align: center;
+    margin-top:100px;
+    width:100%;
+    height: 100vh;
+    min-height: 500px;
+}
+
+.img_object{
+    position:relative;
+    z-index:2;
+}
+
+.image_box:before{
+    content:'';
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    display: block;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
