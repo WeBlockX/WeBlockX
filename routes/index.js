@@ -14,5 +14,5 @@ router.get('/community', function(req, res){
   res.render('community', {title: 'WeBlock X Community'})
 })
 
-
+router.get('/')
 module.exports = router;
