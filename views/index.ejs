@@ -21,6 +21,7 @@
 
         <!-- THEME STYLES -->
         <link href="css/layout.css" rel="stylesheet" type="text/css"/>
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
@@ -88,7 +89,7 @@
 
             <!--// end row -->
         <!--========== PAGE LAYOUT ==========-->
-        <div class="m_section mc1">
+        <div class="m_section mc1 hidden">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -131,6 +132,18 @@
                 </div>
             </div>
         </div>
+
+        <!-- Promo Banner -->
+        <div class="promo-banner">
+            <div class="content-lg container">
+                <div class="container-sm content-lg">
+                    <!--<h2 class="promo-banner-title">Displaying the Result</h2>-->
+                    <!--<p class="promo-banner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>-->
+                    <img class="img-ppt-responsive" src="img/1920x1080/04.png" alt="test01">
+                </div>
+            </div>
+        </div>
+        <!-- End Promo Banner -->
 
         <!-- Service hidden-->
         <div class="bg-color-sky-light hidden" data-auto-height="true">
@@ -283,19 +296,21 @@
         <!-- Testimonials -->
         <div class="content-lg container">
             <div class="row">
-                <div class="col-sm-9">
+                <div class="col-sm-6">
                     <h2>What we've done</h2>
 
                     <!-- Swiper Testimonials -->
-                    <div class="swiper-slider swiper-testimonials">
+                    <!--<div class="swiper-slider swiper-testimonials">-->
+                    <div>
                         <!-- Swiper Wrapper -->
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <blockquote class="blockquote">
+                                <!--<blockquote class="blockquote">-->
+                                <blockquote>
                                     <div class="margin-b-20 fweight-700">
                                        '2018 경기도 블록체인 해커톤' 사회혁신분야 - 수상
                                     </div>
-                                    <p>WeBlock X는 경기도민 스스로가 생활 편의 개선을 위해 민원에 자발적&middot;적극적 참여할 수 있도록<br/> 토큰 이코노미를 구축하였습니다. 단순히 참여에 그치는 것이 아닌, 한 걸음 더 나아가<br/>사회적 취약계층 지원사업까지 이어지는 선순환 구조를 만들었습니다.</p>
+                                    <p>WeBlock X는 경기도민 스스로가 생활 편의 개선을 위해 민원에 자발적&middot;적극적<br/>  참여할 수 있도록 토큰 이코노미를 구축하였습니다. 단순히 참여에 그치는 것이 아닌,<br/> 한 걸음 더 나아가 사회적 취약계층 지원사업까지 이어지는 선순환 구조를 만들었습니다.</p>
                                 </blockquote>
                             </div>
                             <!--<div class="swiper-slide">-->
@@ -316,6 +331,9 @@
                         <div class="swiper-testimonials-pagination"></div>
                     </div>
                     <!-- End Swiper Testimonials -->
+                </div>
+                <div class="col-sm-6">
+                    <div style="width:100%; height: 300px; background-color:#ddd; display: flex; align-items: center; justify-content: center">준비중입니다</div>
                 </div>
             </div>
             <!--// end row -->
